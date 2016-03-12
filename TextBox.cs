@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
-
+//BONJOUR WESH
 public class TextBox : MonoBehaviour 
 {
 	public Coroutine co;
@@ -12,6 +12,7 @@ public class TextBox : MonoBehaviour
 	public AudioSource source;
 	public List<string> messages = new List<string>();
 	public int i = 0;
+
 	
 	void Update () 
 	{
