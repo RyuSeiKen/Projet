@@ -12,7 +12,7 @@ public class TextBox : MonoBehaviour
 	public AudioSource source;
 	public List<string> messages = new List<string>();
 	public int i = 0;
-	
+	public int nulle;
 	void Update () 
 	{
 		if(Input.GetKeyDown(KeyCode.X))
@@ -62,4 +62,5 @@ public class TextBox : MonoBehaviour
 		}
 		typing = false;
 	}
+//c'est nul
 }
