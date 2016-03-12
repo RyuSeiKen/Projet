@@ -14,6 +14,9 @@ public class TextBox : MonoBehaviour
 	public int i = 0;
 
 	
+	// oui
+	public int nulle;
+
 	void Update () 
 	{
 		if(Input.GetKeyDown(KeyCode.X))
@@ -63,4 +66,5 @@ public class TextBox : MonoBehaviour
 		}
 		typing = false;
 	}
+//c'est nul
 }
